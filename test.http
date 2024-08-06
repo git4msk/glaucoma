@@ -1,0 +1,9 @@
+POST http://127.0.0.1:5000/classify
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="image"; filename="DME.jpeg"
+Content-Type: image/jpeg
+
+(image data here)
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
